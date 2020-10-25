@@ -17,6 +17,8 @@
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 git clone -b dev https://github.com/Nocker007/xmurp-ua.git package/xmurp-ua
 git clone https://github.com/CHN-beta/rkp-ipid.git package/rkp-ipid
+git clone --depth 1 --branch master --single-branch https://github.com/muink/openwrt-rgmac.git package/rgmac
+git clone --depth 1 --branch master --single-branch https://github.com/muink/luci-app-change-mac.git package/luci-app-change-mac
 #git clone https://github.com/Nocker007/xmurp-ua.git package/xmurp-ua
 #git clone https://github.com/muink/openwrt-rgmac.git package/rgmac
 #git clone https://github.com/muink/luci-app-change-mac.git package/luci-app-change-mac
